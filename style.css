@@ -79,16 +79,20 @@ nav ul li{
     align-items: center;
     background-image: linear-gradient(to right, rgb(203, 152, 248), rgb(191, 240, 67));
     font-family: "Roboto", sans-serif;
+    border-top: 2px solid rgb(208, 167, 247);
+    padding: 22px 0;
 }
 
 .project-image img{
-    width: 49.5vw;
+    width: 29.5vw;
+    margin: 35px;
+    border-radius: 20px;
 }
 
 .project-info{
     display: flex;
     flex-direction: column;
-    padding: 12px;
+    padding: 42px;
 }
 
 .project-info .text{
