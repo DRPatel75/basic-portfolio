@@ -74,3 +74,29 @@ nav ul li{
     padding: 9px 0;
     font-weight: bolder;
 }
+
+.project{
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(to right, rgb(93, 229, 236), rgb(191, 240, 67));
+}
+
+.project-image img{
+    width: 50vw;
+}
+
+.project-info{
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+}
+
+.project-info .text{
+    font-size: 20px;
+    padding: 10px 0;
+    font-weight: bold;
+}
+
+.project-info p{
+    padding: 12px 0;
+}
