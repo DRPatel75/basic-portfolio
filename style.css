@@ -31,16 +31,19 @@ nav ul li{
 }
 
 .hero{
-    background-color: rgb(205, 228, 239);
+    background-image: linear-gradient(to right, rgb(152, 220, 220), rgb(100, 247, 154));
     height: 85vh;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 130px;
     align-items: center;
     font-family: "Roboto", sans-serif;
 }
 
 .hero-left .one{
     font-size: 60px;
+    color: rgb(102, 41, 160);
+    font-weight: bolder;
 }
 
 .hero-left .two{
@@ -54,4 +57,20 @@ nav ul li{
 img {
   max-width: 100px;
   height: auto;
+}
+
+.btn{
+    background-image: linear-gradient(to right, rgb(73, 73, 236), rgb(78, 0, 151));
+    padding: 7px 9px;
+    margin: 0 2px;
+    color: white;
+    border: 2px solid purple;
+    border-radius: 9px;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+.button-container{
+    padding: 9px 0;
+    font-weight: bolder;
 }
