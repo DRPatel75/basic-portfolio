@@ -50,3 +50,8 @@ nav ul li{
 .bold{
     font-weight: bold;
 }
+
+img {
+  max-width: 100px;
+  height: auto;
+}
