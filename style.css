@@ -54,9 +54,9 @@ nav ul li{
     font-weight: bold;
 }
 
-img {
-  max-width: 100px;
-  height: auto;
+.hero-right img{
+  max-width: 0px;
+  height: 0px;
 }
 
 .btn{

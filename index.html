@@ -11,6 +11,20 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Playwrite+IN:wght@100..400&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
+    <style>
+        .project{
+            display: flex;
+            align-items: center;
+            background-image: linear-gradient(to right, rgb(93, 229, 236), rgb(191, 240, 67));
+        }
+        .project-image img{
+            width: 50vw;
+        }
+        .project-info{
+            display: flex;
+            flex-direction: column;
+        }
+    </style>
 </head>
 
 <body>
@@ -28,6 +42,7 @@
     </nav>
 
     <main>
+
         <section class="hero">
             <div class="hero-left">
                 <div class="one">
@@ -43,6 +58,20 @@
             </div>
             <div class="hero-Right">
                 <img src="developer-logo.jpg" alt="Divy the Developer">
+            </div>
+        </section>
+
+        <section class="projects">
+            <div class="project">
+                <div class="project-image">
+                    <img src="AI-p1.jpg" alt="">
+                </div>
+                <div class="project-info">
+                    <div class="text">AI Chatbot for Household Tasks</div>
+                    <div class="buttons">
+                        <button class="btn">Learn More</button>
+                    </div>  
+                </div>
             </div>
         </section>
     </main>
