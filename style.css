@@ -54,9 +54,8 @@ nav ul li{
     font-weight: bold;
 }
 
-.hero-right img{
-  max-width: 0px;
-  height: 0px;
+.hero img{
+    width: 30vw;
 }
 
 .btn{
@@ -78,11 +77,12 @@ nav ul li{
 .project{
     display: flex;
     align-items: center;
-    background-image: linear-gradient(to right, rgb(93, 229, 236), rgb(191, 240, 67));
+    background-image: linear-gradient(to right, rgb(203, 152, 248), rgb(191, 240, 67));
+    font-family: "Roboto", sans-serif;
 }
 
 .project-image img{
-    width: 50vw;
+    width: 49.5vw;
 }
 
 .project-info{
@@ -92,11 +92,15 @@ nav ul li{
 }
 
 .project-info .text{
-    font-size: 20px;
+    font-size: 27px;
     padding: 10px 0;
     font-weight: bold;
 }
 
 .project-info p{
     padding: 12px 0;
+}
+
+.row-reverse{
+    flex-direction: row-reverse;
 }
