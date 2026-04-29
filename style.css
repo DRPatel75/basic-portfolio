@@ -40,6 +40,12 @@ nav ul li{
     font-family: "Roboto", sans-serif;
 }
 
+.hero-left{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
 .hero-left .one{
     font-size: 60px;
     color: rgb(102, 41, 160);
@@ -67,6 +73,11 @@ nav ul li{
     border-radius: 9px;
     cursor: pointer;
     font-size: 17px;
+    transition: all 5s;
+}
+
+.btn:hover{
+    background-image: linear-gradient(to right, rgb(141, 247, 137), rgb(58, 34, 80));
 }
 
 .button-container{
@@ -80,7 +91,7 @@ nav ul li{
     background-image: linear-gradient(to right, rgb(203, 152, 248), rgb(191, 240, 67));
     font-family: "Roboto", sans-serif;
     border-top: 2px solid rgb(208, 167, 247);
-    padding: 22px 0;
+    padding: 22px 100px;
 }
 
 .project-image img{
@@ -107,4 +118,12 @@ nav ul li{
 
 .row-reverse{
     flex-direction: row-reverse;
+}
+
+footer{
+    background-image: linear-gradient(to right, rgb(48, 3, 81), rgb(22, 7, 153));
+    padding: 20px;
+    color: white;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
 }
